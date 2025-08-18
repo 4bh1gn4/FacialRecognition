@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Local face data & model (keep private / large)
+faces_db/
+lbph_model.xml
+labels.json
+
+# OS junk (safe to ignore)
+Thumbs.db
+.DS_Store
