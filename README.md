@@ -49,6 +49,15 @@ face_recognizer.py # Main script
 - Ensure good lighting and multiple angles during enrollment for better accuracy.
 - If the camera doesn’t open, try changing `CAM_INDEX` in the script (0, 1, or 2).
 
+## 🚀 Future Improvements
+- Add support for deep learning–based face recognition (e.g., FaceNet, Dlib, or OpenCV DNN).  
+- Improve accuracy by capturing more diverse lighting and angle samples.  
+- Build a simple GUI for enrollment and recognition instead of terminal-based prompts.  
+- Integrate with a database (e.g., SQLite or PostgreSQL) to store face metadata and recognition logs.  
+- Allow real-time notifications (via email or Discord bot) when a face is recognized.  
+- Add support for multiple camera inputs and network video streams.  
+
+
 ---
 💡 Built as a simple demo app for learning computer vision and face recognition with OpenCV.
 
