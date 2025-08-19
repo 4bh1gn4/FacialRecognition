@@ -51,3 +51,13 @@ face_recognizer.py # Main script
 
 ---
 💡 Built as a simple demo app for learning computer vision and face recognition with OpenCV.
+
+## 🙌 Credits
+Developed by **4bh1gn4**  
+Powered by OpenCV’s LBPH Face Recognizer
+
+---
+
+## 📜 License
+**MIT License**.
+
