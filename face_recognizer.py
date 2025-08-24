@@ -3,15 +3,15 @@ import numpy as np
 from datetime import datetime
 from pathlib import Path
 
-# ---- settings you can tweak ----
-DATA_DIR = Path("faces_db")           # where your face images live
+# ---------------------------------
+DATA_DIR = Path("faces_db")           # where face images live
 MODEL_PATH = Path("lbph_model.xml")   # the trained model file
 LABELS_PATH = Path("labels.json")     # maps numeric labels -> names
 SAMPLES_PER_PERSON = 30               # images captured during enrollment
 FACE_SIZE = (200, 200)                # normalized face crop size
 CONF_THRESHOLD = 80                   # lower is better; <= this = recognized
 CAM_INDEX = 0                         # try 1 or 2 if you have multiple cameras
-RES_W, RES_H = 1920, 1080             # request 1080p from your eMeet
+RES_W, RES_H = 1920, 1080             # request 1080p from cam
 # ---------------------------------
 
 DATA_DIR.mkdir(exist_ok=True)
